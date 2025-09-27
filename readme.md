@@ -98,7 +98,7 @@ Fisrt, change the path in /video_edit_part/config.py.
 ```bash
 cd /audio_edit_part
 
-nohup python video_edit_main.py \
+python video_edit_main.py \
 --input_video "/demo_data/replace/6.mp4" \
 --source_prompt="Several brown cows are standing in a green alpine meadow under the tall, snowy mountains." \
 --target_prompt="Several brown horses are standing in a green alpine meadow under the tall, snowy mountains." \
@@ -108,7 +108,7 @@ nohup python video_edit_main.py \
 --seed=42 \
 --CA=37\
 --SA=37 \
---threshold=0.05 &
+--threshold=0.05 
 ```
 
 --word parameter means the target object that you want to edit. In replacement and removal tasks, the --word should be set to the source object to be edtied, and in addition task, --word shouldnot be set.
