@@ -81,7 +81,7 @@ python audio_edit_main.py \
 
 --word parameter means the target object that you want to edit. In replacement and removal tasks, the --word should be set to the source object to be edtied, and in addition task, --word shouldnot be set.
 
---threshold parameter means the mask process. Biger threshold means less change.
+--threshold affects the mask process. Biger threshold means less change.
 
 --CA means the cross attention control steps. 
 
@@ -113,7 +113,7 @@ python video_edit_main.py \
 
 --word parameter means the target object that you want to edit. In replacement and removal tasks, the --word should be set to the source object to be edtied, and in addition task, --word shouldnot be set.
 
---threshold parameter means the mask process. Biger threshold means less change.
+--threshold affects the mask process. Biger threshold means less change.
 
 --CA means the cross attention control steps. 
 
