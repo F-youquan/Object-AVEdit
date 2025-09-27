@@ -96,7 +96,7 @@ Biger CA or SA means more control steps. In removal task, SA is often set to 0.
 Fisrt, change the path in /video_edit_part/config.py.
 
 ```bash
-cd /audio_edit_part
+cd /video_edit_part
 
 python video_edit_main.py \
 --input_video "/demo_data/replace/6.mp4" \
